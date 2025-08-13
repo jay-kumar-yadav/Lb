@@ -779,8 +779,8 @@
                     <circle cx="65" cy="20" r="3" fill="#FF9A8B" />
                 </svg>
             </div>
-            <h1>Happy Birthday!My Love of Life</h1>
-            <p>Welcome to your special day celebration! Enjoy this magical journey through the moments we've shared together. Each memory is a gift that I cherish and hope brings a smile to your face today.</p>
+            <h1>Happy Birthday Laaddo!</h1>
+            <p>Kuch Bachpan ke yaadein, Laaddo Bachpan m tu jayeda hee Cute thi Love You Laaddo Aab bhi bhut cute meri Ladli meri eklauti Meri Sabkuch ,phir se Haapy Bady Laaddo ,Bas iss din special Feel Q tujhe main har din special feel karwunga .</p>
         </div>
         
         <div class="gallery-controls">
@@ -806,70 +806,70 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Memory cards data
+            // Memory cards data - UPDATE THESE WITH YOUR PHOTOS AND DESCRIPTIONS
             const memories = [
                 {
-                    img: "pic1.jpg",
-                    title: "After 12th Board",
-                    description: "Tujhe Yaad hai jab tu apne Board ke turant Baad Call ki thi mujhe ye usii din ka kitna din baad tujhe dekha tha usees phale ek ya 2 baar hee video call m baat kiye tha na humlog..",
-                    date: "2022-05-19",
+                    img: "b1.jpg", // Replace with your image filename
+                    title: "Papa ki Pyari Beti",
+                
+                    date: "2020-01-15",
                     rotate: "-3deg"
                 },
                 {
-                    img: "pic2.jpg",
-                    title: "1st Tym tere Ghar aya tha..",
-                    description: "Wo ky din tha na jab main tere ghar aya tha tere papa jaise hee gaye main turnat upper bagha tune haath pakd ke chhat pe le gayi thi..ky zor ka hug ki thi Haye..",
-                    date: "2023-04-22",
+                    img: "b2.jpg", // Replace with your image filename
+                    title: "Cute Bacchi",
+                    
+                    date: "2020-06-22",
                     rotate: "2deg"
                 },
                 {
-                    img: "  pic3.jpg",
-                    title: "1st tym in Bnagalore",
-                    description: "ye toh surprise the tere liye na..Railway station bhut common hai hmlog ke life m jayeda tr patri ke pass mile hai..",
-                    date: "2023-10-22",
+                    img: "b3.jpg", // Replace with your image filename
+                    title: "Growing Up",
+                    
+                    date: "2021-03-10",
                     rotate: "-1deg"
                 },
                 {
-                    img: "  pic4.jpg",
-                    title: "Parpose ",
-                    description: "Tujhe pata chal gaya tha ki main parpose krne wala hu..but ye plane Beach ke kinare ka tha But jo tha aacha gaya tha Love u Laaddo..",
-                    date: "2024-04-22",
+                    img: "b4.jpg", // Replace with your image filename
+                    title: "Photo Shoot Fun",
+                    
+                    date: "2021-08-15",
                     rotate: "1deg"
                 },
                 {
-                    img: "  pic5.jpg",
-                    title: "Hmlog ka common Place",
-                    description: "Aye din bhi special tha yaad krna ..Iss din tu apne gaon gayi thi na..jitne bhi din tere saath mila hai na mere liye sb special hai..",
-                    date: "2024-05-16",
+                    img: "b5.jpg", // Replace with your image filename
+                    title: "Special Occasion",
+                   
+                    date: "2022-02-14",
                     rotate: "-2deg"
                 },
                 {
-                    img: "  pic6.jpg",
-                    title: "Pre Diwali ",
-                    description: "Iss time toh main hope choor diya tha ki iss diwali milne wala hu but tu  aa gyi and hmlog finally mil gaye apne common plac m railway station me main humesha bolta hu mil lenge tu hee dar jaati hai.",
-                    date: "2023-11-30",
+                    img: "b6.jpg", // Replace with your image filename
+                    title: "Meri Laldli",
+                    
+                    date: "2022-07-20",
                     rotate: "3deg"
                 },
                 {
-                    img: "  pic7.jpg",
-                    title: "Delhi Trip",
-                    description: "Our 1st trip together to Delhi was unforgettable! From exploring the Akshardham ,Delhi Metro and Haldiram ka khana and tu egg role khyi thi na..to shopping at Connaught Place, every moment was special. Can't wait for our next adventure!",
-                    date: "2025-03-30",
+                    img: "b7.jpg", // Replace with your image filename
+                    title: "Masum si Ladki",
+                    
+                    date: "2023-01-05",
                     rotate: "0deg"
                 },
                 {
-                    img: "  pic8.jpg",
-                    title: "Virandaavan Trip",
-                    description: "so main Krishna ke Nagri m apne Radha ke saath unka nagri m ghoom raha tha..Tujhe pata hai na main kitna khush tha iss trip m..",
-                    date: "2025-4-01",
+                    img: "b8.jpg", // Replace with your image filename
+                    title: "Meri Dimaond",
+                    
+                    date: "2023-12-25",
                     rotate: "-1.5deg"
                 },
-                 {
-                    img: "  pic9.jpg",
-                    title: "Mathura Trip",
-                    description: "Yamuna m boat ride and Krishna Janm Bhoomi visit was a dream come true! Sharing these moments with you made it even more special. Can't wait for our next trip together!jadli chalte hai na Laaddo..",
-                    date: "2025-04-02",
-                    rotate: "-1.5deg"
+                {
+                    img: "b9.jpg", // Replace with your image filename
+                    title: "Family ",
+                    
+                    date: "2024-06-01",
+                    rotate: "1.5deg"
                 }
             ];
             
@@ -980,9 +980,8 @@
             });
             
             document.getElementById('nextButton').addEventListener('click', function() {
-                  window.location.href = 'childhood.html';
+                  window.location.href = 'cake.html';
             });
-            
             document.getElementById('backButton').addEventListener('click', function() {
                 memoryGallery.scrollBy({
                     left: -600,
@@ -1013,14 +1012,6 @@
             
             // Create sparkles at intervals
             setInterval(createSparkle, 300);
-            
-            // Add scroll functionality
-            document.getElementById('nextButton').addEventListener('click', function() {
-                memoryGallery.scrollBy({
-                    left: 600,
-                    behavior: 'smooth'
-                });
-            });
         });
     </script>
 </body>
